@@ -1,36 +1,56 @@
 # Streamlit Multi-Page Dashboard
 
-This project is a beginner-friendly, interactive multi-page web app built using [Streamlit](https://streamlit.io/). It allows you to:
+A beginner-friendly, interactive multi-page web app built with [Streamlit](https://streamlit.io/).
 
-- Upload and explore CSV files
-- Visualize column data with charts
-- Use a clean multi-page layout (Home, Data Explorer, Charts)
-- Deploy instantly using Streamlit Cloud
+## ✨ Features
 
-## 🚀 Features
-
-- CSV File Upload
-- Data Preview Table
-- Bar Chart Visualization
-- Multi-Page Navigation
-- Lightweight and fast
+- 📁 CSV File Upload & Data Preview
+- 📊 Bar Chart Visualization
+- 🗂️ Multi-Page Navigation (Home, Data Explorer, Charts)
+- ⚡ Fast & Lightweight
+- ☁️ Easy deployment with Streamlit Cloud
 
 ## 📁 Folder Structure
 
+```
 streamlit-multipage-dashboard/
 ├── app.py
 ├── pages/
-│ ├── 1_Data_Explorer.py
-│ └── 2_Charts.py
+│   ├── 1_Data_Explorer.py
+│   └── 2_Charts.py
 ├── requirements.txt
+```
 
+## 🚀 Getting Started
 
-## 🧪 Run Locally
+1. **Clone the repository**
 
-```bash
-git clone https://github.com/your-username/streamlit-multipage-dashboard.git
-cd streamlit-multipage-dashboard
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
+   ```bash
+   git clone https://github.com/your-username/streamlit-multipage-dashboard.git
+   cd streamlit-multipage-dashboard
+   ```
+
+2. **Set up a virtual environment**
+
+   ```bash
+   python -m venv env
+   # On Windows:
+   env\Scripts\activate
+   # On macOS/Linux:
+   source env/bin/activate
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the app**
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+Enjoy exploring your data!
